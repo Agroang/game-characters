@@ -68,6 +68,10 @@ h3 {
   text-shadow: 3px 3px 5px pink;
 }
 
+.container > h3 {
+  margin-bottom: 24px;;
+}
+
 .container .centered-par > a {
   font-size: 24px;
   padding: 10px;
@@ -87,4 +91,37 @@ h3 {
 .container .centered-par {
   margin-top: 24px;
   margin-bottom: 24px;
+}
+
+.form-margin {
+  margin-top: 9vh;
+  margin-bottom: 34vh;
+  width: auto;
+  color: white;
+}
+
+.form-margin-md {
+  margin-top: 9vh;
+  margin-bottom: 20vh;
+  width: auto;
+  color: white;
+}
+
+.form-margin-xl {
+  margin-top: 10vh;
+  margin-bottom: 47vh;
+  width: auto;
+  color: white;
+}
+
+.new-btn {
+  font-size: 24px;
+  padding: 10px;
+  background-color: rgba(46, 49, 49, 0.7);
+  border: 1px solid pink;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  text-shadow: 3px 3px 5px pink;
+  transition: 0.5s;
 }

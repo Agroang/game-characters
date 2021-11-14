@@ -1,4 +1,6 @@
-<%= simple_form_for [@character, @gain] do |f| %>
-  <%= f.association :skill, prompt: "Choose a skill" %>
-  <%= f.submit 'Add Skill', class: 'btn btn-primary' %>
-<% end %>
+<div class="container form-margin-xl">
+  <%= simple_form_for [@character, @gain] do |f| %>
+    <%= f.association :skill, prompt: "Choose a skill" %>
+    <%= f.submit 'Add Skill', class: 'new-btn' %>
+  <% end %>
+</div>

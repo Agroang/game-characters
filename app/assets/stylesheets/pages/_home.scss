@@ -1,34 +1,35 @@
 // Specific CSS for your home-page
 .footer {
-  background: #F4F4F4;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
+  height: 70px;
   padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
+  color: white;
+  text-shadow: 3px 3px 5px pink;
+  background: $gray;
+  border-top: 3px solid pink;
 }
 .footer-links {
   display: flex;
   align-items: center;
 }
 .footer-links a {
-  color: black;
-  opacity: 0.15;
+  color: white;
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
+  transition: 0.5s;
 }
+
 .footer-links a:hover {
-  opacity: 1;
-}
-.footer .fa-heart {
-  color: #D23333;
+  text-shadow: 5px 5px 7px pink;
 }
 
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: $gray;
+  border-bottom: 3px solid pink;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -39,8 +40,51 @@
   width: 40px;
 }
 
+.navbar-light .navbar-nav .active > .nav-link  {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 24px;
+    text-shadow: 3px 3px 5px pink;
+}
+
 body {
   background-image: url("gaming_background.jpg");
   // background-image: url("gaming_background_2.jpg");
   background-size: auto;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: white;
+  margin: 36px;
+  text-shadow: 3px 3px 5px pink;
+}
+
+h3 {
+  color: white;
+  text-shadow: 3px 3px 5px pink;
+}
+
+.container .centered-par > a {
+  font-size: 24px;
+  padding: 10px;
+  background-color: rgba(46, 49, 49, 0.7);
+  border: 1px solid pink;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  text-shadow: 3px 3px 5px pink;
+  transition: 0.5s;
+}
+
+.container .centered-par > a:hover {
+  text-shadow: 5px 5px 7px pink;
+}
+
+.container .centered-par {
+  margin-top: 24px;
+  margin-bottom: 24px;
 }

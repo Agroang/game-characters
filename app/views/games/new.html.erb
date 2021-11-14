@@ -1,8 +1,8 @@
- <div class="container form-margin-md">
+<div class="container form-margin">
   <%= simple_form_for @game do |f| %>
     <%= f.input :name %>
     <%= f.input :release_date %>
     <%= f.input :photo, as: :file %>
     <%= f.submit class: 'new-btn' %>
   <% end %>
- </div>
+</div>

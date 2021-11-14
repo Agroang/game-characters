@@ -1,4 +1,4 @@
-<div class="container form-margin-xl">
+<div class="container form-margin">
   <%= simple_form_for [@character, @gain] do |f| %>
     <%= f.association :skill, prompt: "Choose a skill" %>
     <%= f.submit 'Add Skill', class: 'new-btn' %>

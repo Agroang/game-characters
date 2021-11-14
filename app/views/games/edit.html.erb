@@ -1,5 +1,7 @@
-<%= simple_form_for @game do |f| %>
-  <%= f.input :name %>
-  <%= f.input :release_date %>
-  <%= f.submit class: 'btn btn-primary' %>
-<% end %>
+<div class="container form-margin">
+  <%= simple_form_for @game do |f| %>
+    <%= f.input :name %>
+    <%= f.input :release_date %>
+    <%= f.submit class: 'new-btn' %>
+  <% end %>
+</div>

@@ -125,3 +125,17 @@ h3 {
   text-shadow: 3px 3px 5px pink;
   transition: 0.5s;
 }
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .container .centered-par > a {
+    display: block;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .container .centered-par > a {
+    display: block;
+  }
+}

@@ -1,5 +1,6 @@
 <%= simple_form_for @game do |f| %>
   <%= f.input :name %>
   <%= f.input :release_date %>
+  <%= f.input :photo, as: :file %>
   <%= f.submit class: 'btn btn-primary' %>
 <% end %>

@@ -6,7 +6,9 @@
         <% end %>
   <span><%= link_to "Add a skill", new_character_gain_path(character) %></span>
   </p>
-
+  <div>
+  <%= cl_image_tag character.photo.key, height: 300, width: 400, crop: :fill %>
+  </div>
   <% character.skills.each do |skill| %>
     <p><%= skill.name %>
     <% end %>

@@ -18,11 +18,12 @@ class CharactersController < ApplicationController
   def destroy
     @character = Character.find(params[:id])
     @character.destroy
+    redirect_to game_path(@character.game)
   end
 
   private
 
   def character_params
-    params.require(:character).permit(:name, :game_id)
+    params.require(:character).permit(:name, :game_id, :photo)
   end
 end

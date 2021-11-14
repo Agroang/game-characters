@@ -3,12 +3,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
+  min-height: 70px;
   padding: 0px 50px;
   color: white;
   text-shadow: 3px 3px 5px pink;
   background: $gray;
   border-top: 3px solid pink;
+  margin-top: auto;
 }
 .footer-links {
   display: flex;
@@ -54,6 +55,10 @@ body {
   background-image: url("gaming_background.jpg");
   // background-image: url("gaming_background_2.jpg");
   background-size: auto;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
